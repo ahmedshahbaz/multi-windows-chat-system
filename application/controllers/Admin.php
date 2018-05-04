@@ -96,11 +96,11 @@ class Admin extends CI_Controller {
 
 		 // Change the following with your app details:
 		// Create your own pusher account @ www.pusher.com
-		$app_id = '461215'; // App ID
-		$app_key = '755194918955dd82f4a3'; // App Key
-		$app_secret = '1d3be57e53fb67a746c7'; // App Secret
+		$app_id = ''; // App ID
+		$app_key = ''; // App Key
+		$app_secret = ''; // App Secret
 		$options = array(
-			'cluster' => 'ap2',
+			'cluster' => '',
 			'encrypted' => true
 		  );
 		$pusher = new Pusher\Pusher($app_key, $app_secret, $app_id, $options);
@@ -152,11 +152,11 @@ class Admin extends CI_Controller {
 
 		 // Change the following with your app details:
 		// Create your own pusher account @ www.pusher.com
-		$app_id = '461215'; // App ID
-		$app_key = '755194918955dd82f4a3'; // App Key
-		$app_secret = '1d3be57e53fb67a746c7'; // App Secret
+		$app_id = ''; // App ID
+		$app_key = ''; // App Key
+		$app_secret = ''; // App Secret
 		$options = array(
-			'cluster' => 'ap2',
+			'cluster' => '',
 			'encrypted' => true
 		  );
 		$pusher = new Pusher\Pusher($app_key, $app_secret, $app_id, $options);
@@ -187,11 +187,11 @@ class Admin extends CI_Controller {
 
 		 // Change the following with your app details:
 		// Create your own pusher account @ www.pusher.com
-		$app_id = '461215'; // App ID
-		$app_key = '755194918955dd82f4a3'; // App Key
-		$app_secret = '1d3be57e53fb67a746c7'; // App Secret
+		$app_id = ''; // App ID
+		$app_key = ''; // App Key
+		$app_secret = ''; // App Secret
 		$options = array(
-			'cluster' => 'ap2',
+			'cluster' => '',
 			'encrypted' => true
 		  );
 		$pusher = new Pusher\Pusher($app_key, $app_secret, $app_id, $options);
@@ -360,9 +360,9 @@ class Admin extends CI_Controller {
 
 		 // Change the following with your app details:
 		// Create your own pusher account @ www.pusher.com
-		$app_id = '461215'; // App ID
-		$app_key = '755194918955dd82f4a3'; // App Key
-		$app_secret = '1d3be57e53fb67a746c7'; // App Secret
+		$app_id = ''; // App ID
+		$app_key = ''; // App Key
+		$app_secret = ''; // App Secret
 		$options = array(
 			'cluster' => 'ap2',
 			'encrypted' => true
