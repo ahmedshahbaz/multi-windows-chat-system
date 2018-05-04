@@ -404,10 +404,9 @@
 			
 			<!--- Chatbox script --->
 			// Enter your own Pusher App key
-			//var pusher = new Pusher('755194918955dd82f4a3');
 			var lastId;
-			var pusher = new Pusher('755194918955dd82f4a3', {
-				  cluster: 'ap2'
+			var pusher = new Pusher('Your app key', {
+				  cluster: 'your cluster'
 				}); 
 			// Enter a unique channel you wish your users to be subscribed in.
 			var channel = pusher.subscribe('test_channel');
